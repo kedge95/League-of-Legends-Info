@@ -1,0 +1,26 @@
+
+.headerBanner{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(18, 18, 18);
+  align-items: center;
+  text-align: center;
+}
+
+.routeButtons {
+  font-size: 1.3rem;
+  color: whitesmoke;
+  margin-left: 25px;
+}
+
+.bannerImage {
+  height: 120px;
+  
+}
+
+#hiddenButton {
+  visibility: hidden;
+  margin-right: 25px;
+}

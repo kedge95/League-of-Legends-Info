@@ -1,0 +1,46 @@
+.searchContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.champCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px;
+  margin-top: 0px;
+  background-color: rgb(250, 249, 246);
+}
+
+.champCard {
+  margin: 10px 5px;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+.champImage {
+  width: 100%;
+}
+
+.champName{
+  margin: 0px;
+  background-color: rgb(17, 17, 17);
+}
+
+.champLink {
+  color: white;
+  text-decoration: none;
+}
+
+.champLink:hover {
+  color: goldenrod;
+}
+
+.searchbar {
+  margin: 50px;
+  margin-bottom: 15px;
+  width: 80%;
+  padding: 8px;
+}
+

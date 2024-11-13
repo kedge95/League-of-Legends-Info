@@ -9,14 +9,17 @@ import ChampInfo from "./Pages/ChampInfo/ChampInfo";
 
 function App() {
   return (
-    <HashRouter>
+
+    <>
       <Header />
-      <Routes>
-        <Route path="/" Component={Homepage} />
-        <Route path="/Champions" Component={Champions} />
-        <Route path="/ChampInfo/:id" Component={ChampInfo} />
-      </Routes>
-    </HashRouter>
+      <HashRouter>
+        <Routes>
+          <Route path="/" Component={Homepage} />
+          <Route path="/Champions" Component={Champions} />
+          <Route path="/ChampInfo/:id" Component={ChampInfo} />
+        </Routes>
+      </HashRouter>
+    </>
   );
 }
 

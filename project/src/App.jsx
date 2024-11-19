@@ -14,7 +14,7 @@ function App() {
       <Header />
       <HashRouter>
         <Routes>
-          <Route path="/League-of-Legends-info/" Component={Homepage} />
+          <Route path="/" Component={Homepage} />
           <Route path="/Champions" Component={Champions} />
           <Route path="/ChampInfo/:id" Component={ChampInfo} />
         </Routes>
